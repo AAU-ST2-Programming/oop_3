@@ -122,6 +122,7 @@ def generate_units(n=10):
     """Generate a list of random game units."""
     units = []
 
+    fake = Faker()
     for _ in range(n):
         name = fake.word().capitalize() + " " + random.choice(GameUnit.UNIT_TYPES)
         unit_type = random.choice(GameUnit.UNIT_TYPES)

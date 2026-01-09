@@ -1,24 +1,16 @@
-
+import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 class HeartRateData:
     def __init__(self, file_path: str, fs: float):
-        self.data = []
-        with open(file_path, "r") as f:
-            self.header=f.readline()  # Skip header
-            for line in f:
-                line = line.strip()
-                if line:
-                    self.data.append(float(line))
-        self.time = [i / fs for i in range(len(self.data))]
-
-
+        self.data = pd.read_csv(file_path)["ecg"].tolist()
         self.fs = fs
 
-    def calculate_heartrate(self, thr: float):
+    def extract_heartrate(self, thr: float):
         value_record = 0
-        time_record = 0
+        time = 0
         t_old = None
         heartrates = []
         timestamps = []
@@ -26,24 +18,24 @@ class HeartRateData:
             if value > thr:
                 if value > value_record:
                     value_record = value
-                    time_record = i / self.fs
+                    time = i / self.fs
             else:
                 if value_record > 0:
                     if t_old is not None:
-                        hr = 60.0 / (time_record - t_old)
+                        hr = 60.0 / (time - t_old)
                         heartrates.append(hr)
-                        timestamps.append(time_record)
-                    t_old = time_record
-                time_record = 0
+                        timestamps.append(time)
+                    t_old = time
+                time = 0
                 value_record = 0
 
         return (heartrates, timestamps)
 
 if __name__ == "__main__":
     signal = HeartRateData("files/data_1_rows.csv", fs=300.0)
-    heartrates, timestamps = signal.calculate_heartrate(thr=0.6)
+    heartrates, timestamps = signal.extract_heartrate(thr=0.6)
     plt.subplot(2, 1, 1)
-    plt.plot(signal.time, signal.data)
+    plt.plot(np.linspace(0, len(signal.data) / signal.fs, len(signal.data)), signal.data)
     plt.subplot(2, 1, 2)
     plt.plot(timestamps, heartrates)
     plt.xlabel("Time (s)")
