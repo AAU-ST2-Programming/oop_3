@@ -1,42 +1,89 @@
-# {{REPO_NAME}}
+# OOP 3: Fra filer til data i Python
 
-- **PowerPoint slideshow**: `{{REPO_NAME}}.pptx`
-- **questions.docx** – `Indeholder spørgsmål som i får i forbindelsen med forlæsningen.`
-- **Lecture specific files** - `En mappe som indeholder filer i skal bruge i forbindelse med forlæsningen.`
+- **Lecture specific files**: files/* – `En mappe med filer til øvelser og eksempler fra undervisningen.`
+
 ---
 
-## ​ Usage
+## Forberedelse til lektionen
 
-To use this template:
+Følg denne guide nøje for at være klar til undervisningen:
 
-1. Click **Use this template** on GitHub to create a new repo.
-2. Clone it locally:
-   ```bash
-   git clone https://github.com/you/{{REPO_NAME}}.git
-   cd {{REPO_NAME}}
+### 1. Literatur
 
-## Forberedelse
+**Primær litteratur:**
+- [Think Python, 2nd Edition af Allen B. Downey (online bog)](https://allendowney.github.io/ThinkPython/)
+  - **Kapitel 10: Lists**  
+    Arbejde med lister, som ofte bruges til at håndtere data fra filer.
+  - **Kapitel 14: Files**  
+    Introduktion til filhåndtering i Python – hvordan man læser og skriver filer.
+  - **Kapitel 15–17 (valgfrit, repetition):**  
+    Klasser og objekter, hvis du vil arbejde videre med objektorienteret datahåndtering.
+- [Python for Everybody af Charles Severance (PDF)](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf)
+  - Kapitel 7: Filer i Python
+  - Kapitel 8: Lister og iteration
+- [Data Wrangling with Python af Jacek Gołębiewski (PDF)](https://datawranglingpy.gagolewski.com/datawranglingpy.pdf)
+  - Kapitel 1–2: Introduktion til databehandling og struktur af data
 
-Til hver lektion skal man forvente følgende:
+**Supplerende litteratur:**
+- [Python - Files I/O (Tutorialspoint)](https://www.tutorialspoint.com/python/python_files_io.htm)
+- [Python - Lists (Tutorialspoint)](https://www.tutorialspoint.com/python/python_lists.htm)
 
-Før/efter Kursusgang:
-- Gennemgang af tidligere kursusgange
-  - Vi bygger altid ovenpå tidligere kursusgange
-- Gennemgå nyt materiale, som vil være beskrevet i denne readme
+**Formål:** Forstå hvordan man læser data fra filer, arbejder med lister og organiserer data i Python.
 
-Tiden er sat således at der vil være:
+---
 
-- 4 timers forberedelser (der hjemme, før undervisning)
-- 4 timers undervisning og samlet opgave regning
-- 4 timers individuel opgaveregning (der hjemme, efter undervisning)
+### 2. Installationer og opsætning
+- Sørg for at Python og VS Code er installeret (se evt. tidligere guides).
+- Tjek at du har følgende extensions i Visual Studio Code:
+  - `Python`
+  - `jupyter`
+- Download eller opdater materialet:
+  ```bash
+  # Første gang: klon repoet
+  git clone https://github.com/AAU-ST2-Programming/oop_3
+  cd oop_3
 
-## Spørgsmål noter
+  # Hvis du allerede har mappen, kan du opdatere med:
+  git pull
+  ```
+- **Alternativt:**  
+  Hvis du vil hente *alle* kursus-repos på én gang, kan du bruge:  
+  [https://github.com/AAU-ST2-Programming/all_lectures](https://github.com/AAU-ST2-Programming/all_lectures)  
+  Kør `python sync.py` for at hente alle relevante mapper.
+
+---
+
+## Lektionens fokus
+
+- Læse og forstå data fra tekstfiler og CSV-filer
+- Arbejde med lister og simple datastrukturer
+- Visualisere data med matplotlib
+- Introduktion til objektorienteret datahåndtering
+
+---
+
+## Forventninger til forberedelse og undervisning
+
+- **Før/efter kursusgang:**
+  - Gennemgå tidligere kursusgange og kodeeksempler
+  - Læs nyt materiale som beskrevet ovenfor
+- **Tidsforbrug:**
+  - 4 timers forberedelse (hjemme, før undervisning)
+  - 4 timers undervisning og gruppeopgaver
+  - 4 timers individuel opgaveregning (hjemme, efter undervisning)
+
+---
+
+## Spørgsmål og opgaver
 
 - Til hver opgave i undervisningen vil der være:
-  - En opgave beskrivelse,
-  - En guide til hvordan man udfører opgaven.
+  - En opgavebeskrivelse
+  - En guide til hvordan opgaven løses
   - Svar på opgaven
-- Spørgsmålene i opgaveregningen bliver generelt set mere komplicerede, 
-  - De sidste opgaver er en blanding af både den nuværende kursusgang, samt tidligere kursusgange.
-- Til eksamen vil der kun være en opgave beskrivelse.
-  - Det vil altså være op til jer at kunne se hvordan en opgave skal løses ud fra opgave beskrivelsen.
+- Opgaverne bygger videre på hinanden og bliver gradvist sværere.
+- Til eksamen vil der kun være en opgavebeskrivelse – du skal selv kunne vurdere, hvordan opgaven løses.
+
+---
+
+**Husk:** Brug "Think Python" som din primære kilde til litteratur og reference – især kapitel 10 og 14!  
+Repo: [https://github.com/AAU-ST2-Programming/oop_3](https://github.com/AAU-ST2-Programming/oop_3)
