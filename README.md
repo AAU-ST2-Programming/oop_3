@@ -11,12 +11,12 @@ Følg denne guide nøje for at være klar til undervisningen:
 ### 1. Literatur
 
 **Primær litteratur:**
-- [Think Python, 2nd Edition af Allen B. Downey (online bog)](https://allendowney.github.io/ThinkPython/)
-  - **Kapitel 10: Lists**  
+- [Think Python, (online bog)](https://allendowney.github.io/ThinkPython/)
+  - **Kapitel 9: Lists**  
     Arbejde med lister, som ofte bruges til at håndtere data fra filer.
-  - **Kapitel 14: Files**  
+  - **Kapitel 13: Files**  
     Introduktion til filhåndtering i Python – hvordan man læser og skriver filer.
-  - **Kapitel 15–17 (valgfrit, repetition):**  
+  - **Kapitel 15–17:**  
     Klasser og objekter, hvis du vil arbejde videre med objektorienteret datahåndtering.
 - [Python for Everybody af Charles Severance (PDF)](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf)
   - Kapitel 7: Filer i Python
@@ -82,8 +82,3 @@ Følg denne guide nøje for at være klar til undervisningen:
   - Svar på opgaven
 - Opgaverne bygger videre på hinanden og bliver gradvist sværere.
 - Til eksamen vil der kun være en opgavebeskrivelse – du skal selv kunne vurdere, hvordan opgaven løses.
-
----
-
-**Husk:** Brug "Think Python" som din primære kilde til litteratur og reference – især kapitel 10 og 14!  
-Repo: [https://github.com/AAU-ST2-Programming/oop_3](https://github.com/AAU-ST2-Programming/oop_3)
