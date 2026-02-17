@@ -3,5 +3,7 @@ pandas
 matplotlib
 scikit-learn
 ipykernel
-pyside6
 faker
+jupyterlab
+jupyterlab_rise
+mermaid-py
