@@ -1,4 +1,4 @@
-# OOP 3: Fra filer til data i Python
+# Filer og dataindlæsning
 
 - **Lecture specific files**: files/* – `En mappe med filer til øvelser og eksempler fra undervisningen.`
 
@@ -24,9 +24,13 @@ Følg denne guide nøje for at være klar til undervisningen:
 - [Data Wrangling with Python af Jacek Gołębiewski (PDF)](https://datawranglingpy.gagolewski.com/datawranglingpy.pdf)
   - Kapitel 1–2: Introduktion til databehandling og struktur af data
 
-**Supplerende litteratur:**
+**Supplerende litteratur:**  
 - [Python - Files I/O (Tutorialspoint)](https://www.tutorialspoint.com/python/python_files_io.htm)
 - [Python - Lists (Tutorialspoint)](https://www.tutorialspoint.com/python/python_lists.htm)
+
+
+**Videoer**  
+- [Exercise Video: Find Heart Rate](https://panopto.aau.dk/Panopto/Pages/Viewer.aspx?id=5132ad0f-eb75-4419-88fb-b3f600d28b0a)
 
 **Formål:** Forstå hvordan man læser data fra filer, arbejder med lister og organiserer data i Python.
 
@@ -38,14 +42,15 @@ Følg denne guide nøje for at være klar til undervisningen:
   - `Python`
   - `jupyter`
 - Download eller opdater materialet:
-  ```bash
-  # Første gang: klon repoet
-  git clone https://github.com/AAU-ST2-Programming/oop_3
-  cd oop_3
+>  ```zsh
+>  # Første gang: klon repoet
+>  git clone https://github.com/AAU-ST2-Programming/oop_3.git
+>  cd oop_3
+>
+>  # Hvis du allerede har mappen, kan du opdatere med:
+>  git pull
+>  ```
 
-  # Hvis du allerede har mappen, kan du opdatere med:
-  git pull
-  ```
 - **Alternativt:**  
   Hvis du vil hente *alle* kursus-repos på én gang, kan du bruge:  
   [https://github.com/AAU-ST2-Programming/all_lectures](https://github.com/AAU-ST2-Programming/all_lectures)  
