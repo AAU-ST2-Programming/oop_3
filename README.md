@@ -28,6 +28,14 @@ Følg denne guide nøje for at være klar til undervisningen:
 - [Python - Files I/O (Tutorialspoint)](https://www.tutorialspoint.com/python/python_files_io.htm)
 - [Python - Lists (Tutorialspoint)](https://www.tutorialspoint.com/python/python_lists.htm)
 
+**Til Flowcharts of class diagrammer:**  
+Her er der 2 muligheder. Jeg bruger personligt `Mermaid` idag. 
+Men jeg startede med `DrawIO` hjemmesiden.
+- [Mermaid](https://pypi.org/project/mermaid-py/)
+  - [Flowcharts](https://mermaid.js.org/syntax/flowchart.html)
+  - [Class Diagrams](https://mermaid.js.org/syntax/classDiagram.html)
+- [Draw IO](https://app.diagrams.net/)
+
 
 **Videoer**  
 - [Exercise Video: Find Heart Rate](https://panopto.aau.dk/Panopto/Pages/Viewer.aspx?id=5132ad0f-eb75-4419-88fb-b3f600d28b0a)
