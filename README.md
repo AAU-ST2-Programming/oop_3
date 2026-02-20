@@ -24,9 +24,13 @@ Følg denne guide nøje for at være klar til undervisningen:
 - [Data Wrangling with Python af Jacek Gołębiewski (PDF)](https://datawranglingpy.gagolewski.com/datawranglingpy.pdf)
   - Kapitel 1–2: Introduktion til databehandling og struktur af data
 
-**Supplerende litteratur:**
+**Supplerende litteratur:**  
 - [Python - Files I/O (Tutorialspoint)](https://www.tutorialspoint.com/python/python_files_io.htm)
 - [Python - Lists (Tutorialspoint)](https://www.tutorialspoint.com/python/python_lists.htm)
+
+
+**Videoer**  
+- [Exercise Video: Find Heart Rate](https://panopto.aau.dk/Panopto/Pages/Viewer.aspx?id=5132ad0f-eb75-4419-88fb-b3f600d28b0a)
 
 **Formål:** Forstå hvordan man læser data fra filer, arbejder med lister og organiserer data i Python.
 
