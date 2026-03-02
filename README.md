@@ -11,7 +11,7 @@ Følg denne guide nøje for at være klar til undervisningen:
 ### 1. Literatur
 
 **Primær litteratur:**
-- [Think Python, (online bog)](https://allendowney.github.io/ThinkPython/)
+- [Think Python, 3rd Edition af Allen B. Downey (online bog) ](https://allendowney.github.io/ThinkPython/)
   - **Kapitel 9: Lists**  
     Arbejde med lister, som ofte bruges til at håndtere data fra filer.
   - **Kapitel 13: Files**  
