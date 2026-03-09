@@ -12,15 +12,10 @@ Følg denne guide nøje for at være klar til undervisningen:
 
 **Primær litteratur:**
 - [Think Python, 3rd Edition af Allen B. Downey (online bog) ](https://allendowney.github.io/ThinkPython/)
-  - **Kapitel 9: Lists**  
+  - **Kapitel 9: Lists** (Overvej at læs dette igen, da det er en fokus point)
     Arbejde med lister, som ofte bruges til at håndtere data fra filer.
   - **Kapitel 13: Files**  
     Introduktion til filhåndtering i Python – hvordan man læser og skriver filer.
-  - **Kapitel 15–17:**  
-    Klasser og objekter, hvis du vil arbejde videre med objektorienteret datahåndtering.
-- [Python for Everybody af Charles Severance (PDF)](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf)
-  - Kapitel 7: Filer i Python
-  - Kapitel 8: Lister og iteration
 - [Data Wrangling with Python af Jacek Gołębiewski (PDF)](https://datawranglingpy.gagolewski.com/datawranglingpy.pdf)
   - Kapitel 1–2: Introduktion til databehandling og struktur af data
 
